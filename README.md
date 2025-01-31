@@ -1,4 +1,4 @@
-* # SSMIC: Efficient Image Compression Using Advanced State Space Models
+# SSMIC: Efficient Image Compression Using Advanced State Space Models
 This is the Pytorch repository of the paper "[Efficient Image Compression Using Advanced State Space Models](https://arxiv.org/pdf/2409.02743)".
 
 Please feel free to me (zigbou111@gmail.com) if you have any questions.
@@ -16,6 +16,10 @@ image compression methods.
 <img src="./pic/VSS.png" />
 
 ## Evaluation Results
+<p float="left">
+  <img src="./pic/RD_curve.png" width="474" />
+  <img src="./pic/MACs.png" width="507" /> 
+</p>
 
 
 ## Installation
