@@ -12,8 +12,11 @@ effectiveness of our model in achievinga superior BD-rate while significantly re
 image compression methods.
 
 ## Architectures
+<img src="./pic/SSMIC.png" />
+<img src="./pic/VSS.png" />
 
 ## Evaluation Results
+
 
 ## Installation
 
