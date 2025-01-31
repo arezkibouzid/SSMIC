@@ -17,8 +17,8 @@ image compression methods.
 
 ## Evaluation Results
 <p float="left">
-  <img src="./pic/RD_curve.png" width="474" />
-  <img src="./pic/MACs.png" width="507" /> 
+  <img src="./pic/RD_curve.png" />
+  <img src="./pic/MACs.png"  /> 
 </p>
 
 
