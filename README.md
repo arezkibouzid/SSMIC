@@ -22,9 +22,10 @@ image compression methods.
 ## Installation
 
 This codebase was tested with the following environment configurations. The requirements file for installation is available.
-
-- CUDA 12.1 during installation and CUDA 11.6 while executing training and testing.
+- gcc 11
 - Python 3.11
+- CUDA 12.1 during installation and CUDA 11.6 while executing training and testing.
+
 
 To set up the environment, follow these steps:
 
@@ -39,6 +40,8 @@ source env/bin/activate
 Install the required packages:
 ```
 pip install -r requirements.txt
+cd selective_scan/csrc
+pip install *
 ```
 
 ### Dataset
