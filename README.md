@@ -16,10 +16,7 @@ image compression methods.
 <img src="./pic/VSS.png" />
 
 ## Evaluation Results
-<p float="left">
-  <img src="./pic/RD_curve.png" />
-  <img src="./pic/MACs.png"  /> 
-</p>
+![alt-text-1](./pic/RD_curve.png "title-1") ![alt-text-2](./pic/MACs.png "title-2")
 
 
 ## Installation
