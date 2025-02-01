@@ -43,7 +43,7 @@ To set up the environment, follow these steps:
 3. Install the required packages:
     ```sh
     pip install -r requirements.txt
-    cd selective_scan/csrc
+    cd kernels/selective_scan
     pip install *
     ```
 
