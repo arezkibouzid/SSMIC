@@ -24,9 +24,9 @@ Transformers have led to learning-based image compression methods that outperfor
 
 This codebase was tested with the following environment configurations. The requirements file for installation is available.
 
-- gcc 11
+- gcc 12 during installation and gcc 11 while executing training and testing.
 - Python 3.11
-- CUDA 12.1 during installation and CUDA 11.6 while executing training and testing.
+- CUDA 12.1
 
 To set up the environment, follow these steps:
 
@@ -72,14 +72,14 @@ The dataset directory is expected to be organized as below:
 ## Training
 
 ```sh
-export FORCE_CUDA="0" CUDA_VISIBLE_DEVICES=0 python train.py -a SSMIC -d <dataset_root> \
+CUDA_VISIBLE_DEVICES=0 python train.py -a SSMIC -d <dataset_root> \
     --batch-size 8 -lr 1e-4 --save --cuda --lambda 500 --epochs <num_epoch>
 ```
 
 ## Testing
 
 ```sh
-export FORCE_CUDA="0" CUDA_VISIBLE_DEVICES=0 python eval.py checkpoint -a SSMIC <dataset_root> \
+CUDA_VISIBLE_DEVICES=0 python eval.py checkpoint -a SSMIC <dataset_root> \
     -p <pretrained_ckpt_path> -d <dataset_root> --cuda
 ```
 
