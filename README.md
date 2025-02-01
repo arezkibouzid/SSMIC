@@ -44,7 +44,7 @@ To set up the environment, follow these steps:
     ```sh
     pip install -r requirements.txt
     cd kernels/selective_scan
-    pip install *
+    pip install .
     ```
 
 ## Dataset
