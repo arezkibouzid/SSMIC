@@ -16,8 +16,8 @@ Transformers have led to learning-based image compression methods that outperfor
 ## Evaluation Results
 
 <p align="center">
-    <img src="./pic/RD_curve.png" hspace="5" width=390 >
-    <img src="./pic/MACs.png" hspace="5" width=416>
+    <img src="./pic/RD_curve.png" hspace="5" width=374 >
+    <img src="./pic/MACs.png" hspace="5" width=400>
 </p>
 
 ## Installation
